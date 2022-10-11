@@ -78,7 +78,7 @@ public class Main {
 				showScore(scorePlayerOne, scorePlayerTwo, playerOne, playerTwo);
 				if (scorePlayerOne > scorePlayerTwo)
 					System.out.println("O VENCEDOR FINAL FOI O JOGADOR: " + playerOne);
-				else if (scorePlayerTwo < scorePlayerOne)
+				else if (scorePlayerTwo > scorePlayerOne)
 					System.out.println("O VENCEDOR FINAL FOI O JOGADOR: " + playerTwo);
 				else
 					System.out.println("O JOGO TERMINOU EMPATADO.");
@@ -151,7 +151,7 @@ public class Main {
 	}
 
 	public static void drewBoard(String[] boardData) {
-		System.out.println("\n\t Mapa do tabuleira \t\n");
+		System.out.println("\n\t Mapa do tabuleiro \t\n");
 		System.out.println(boardData[0] + " | " + boardData[1] + " | " + boardData[2] + "\t\t 0 | 1 | 2");
 		System.out.println(boardData[3] + " | " + boardData[4] + " | " + boardData[5] + "\t\t 3 | 4 | 5");
 		System.out.println(boardData[6] + " | " + boardData[7] + " | " + boardData[8] + "\t\t 6 | 7 | 8");
