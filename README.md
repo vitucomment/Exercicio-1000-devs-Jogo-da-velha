@@ -13,6 +13,6 @@
 ##### • A execução deve ser feita no Prompt de Comando e de preferência no Windows.
 ##### • O jogo pode ser baixado como ZIP, e extraido em qualquer lugar.
 ##### • O Comando a seguir deve ser feito no CMD para executar o jogo:
-   > C:\users\USUARIO\LOCATION_OF_FILE\Java-JogoDaVelha\src\com\github\vitucomment\tictactoe>java Main.java
+   > C:\users\USUARIO\LOCATION\Java-JogoDaVelha\src\com\github\vitucomment\tictactoe>java Main.java
    
    ![](https://github.com/vitucomment/Java-TicTacToe/blob/master/gif/tictactoe.gif)
