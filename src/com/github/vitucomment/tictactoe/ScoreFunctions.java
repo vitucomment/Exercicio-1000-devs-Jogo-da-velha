@@ -1,11 +1,10 @@
-package com.github.vitucomment.utils;
-
-import com.github.vitucomment.players.PlayersFunctions;
+package com.github.vitucomment.tictactoe;
 
 public class ScoreFunctions {
 
 	public String imprimeVencedorDaRodada(String playerOne, String playerTwo, String currentNamePlayer) {
-		currentNamePlayer = playersFunctions().changePlayerName(currentNamePlayer, playerOne, playerTwo);
+		PlayersFunctions playersFunction = new PlayersFunctions();
+		currentNamePlayer = playersFunction.changePlayerName(currentNamePlayer, playerOne, playerTwo);
 		System.out.println("\nO vencedor da rodada: " + currentNamePlayer);
 		return currentNamePlayer;
 	}
@@ -28,12 +27,8 @@ public class ScoreFunctions {
 			System.out.println("O JOGO TERMINOU EMPATADO.");
 	}
 
-	public static void sepMsg() {
+	private static void sepMsg() {
 		System.out.println("======================================================================");
 	}
 
-	private static PlayersFunctions playersFunctions() {
-		PlayersFunctions playersFunctions = new PlayersFunctions();
-		return playersFunctions;
-	}
 }

@@ -1,4 +1,4 @@
-package com.github.vitucomment.utils;
+package com.github.vitucomment.tictactoe;
 
 public class GameRulesFunctions {
 

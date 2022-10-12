@@ -1,4 +1,4 @@
-package com.github.vitucomment.players;
+package com.github.vitucomment.tictactoe;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;
@@ -86,11 +86,11 @@ public class PlayersFunctions {
 
 	}
 
-	public static void msgJogueNovamente(String currentNamePlayer, String currentPlayer) {
+	private static void msgJogueNovamente(String currentNamePlayer, String currentPlayer) {
 		System.out.print("\nVez do jogador [ " + currentNamePlayer + " = " + currentPlayer + " ]: ");
 	}
 
-	public static void sepMsg() {
+	private static void sepMsg() {
 		System.out.println("======================================================================");
 	}
 

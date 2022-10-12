@@ -1,4 +1,4 @@
-package com.github.vitucomment.utils;
+package com.github.vitucomment.tictactoe;
 
 import java.util.Arrays;
 
